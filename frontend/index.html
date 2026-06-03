@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidade Limpa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🌱 Cidade Limpa</h1>
+        <p>Registro de Problemas Urbanos</p>
+
+        <form id="occurrenceForm">
+
+            <input
+                type="text"
+                id="citizen_name"
+                placeholder="Seu nome"
+                required
+            >
+
+            <select id="type" required>
+                <option value="">Selecione o problema</option>
+                <option value="Lixo">Lixo</option>
+                <option value="Buraco">Buraco</option>
+                <option value="Iluminação">Iluminação</option>
+                <option value="Outro">Outro</option>
+            </select>
+
+            <textarea
+                id="description"
+                placeholder="Descreva o problema"
+                required
+            ></textarea>
+
+            <input
+                type="text"
+                id="location"
+                placeholder="Localização / Bairro"
+                required
+            >
+
+            <button type="submit">
+                Registrar Ocorrência
+            </button>
+
+        </form>
+
+        <h2>Ocorrências Registradas</h2>
+
+        <div id="occurrencesList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
