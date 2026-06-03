@@ -73,8 +73,6 @@ Usuário → Frontend → API Node.js → SQLite
 
 ## Estrutura do Projeto
 
-## Estrutura do Projeto
-
 ```text
 cidade-limpa-n708
 │
