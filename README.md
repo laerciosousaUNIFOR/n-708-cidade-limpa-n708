@@ -73,7 +73,6 @@ Usuário → Frontend → API Node.js → SQLite
 
 ## Estrutura do Projeto
 
-```text
 cidade-limpa-n708
 │
 ├── README.md
@@ -85,19 +84,25 @@ cidade-limpa-n708
 ├── validation
 │   ├── evidence
 │   ├── feedback
+│   │   └── feedback_summary.md
 │   ├── target_audience.md
 │   └── validation_report.md
 │
 ├── frontend
-│   └── web
+│   ├── web
+│   │   ├── src
+│   │   └── public
+│   └── mobile
+│       ├── src
+│       └── package.json
 │
 ├── backend
 │   ├── src
-│   └── tests
+│   ├── tests
+│   └── package.json
 │
 └── database
     └── schema.sql
-```
 
 ---
 
